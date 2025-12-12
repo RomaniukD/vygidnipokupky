@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      ВИГІДНІ ПОКУПКИ ДРОГОБИЧ — стильний одяг для жінок і чоловіків |
+      Інтернет-магазин
+    </title>
+
+    <meta
+      name="description"
+      content="ВИГІДНІ ПОКУПКИ ДРОГОБИЧ — інтернет-магазин стильного жіночого та чоловічого одягу. Модні новинки, зручні речі та приємні ціни. Доставка по всій Україні."
+    />
+    <meta
+      name="keywords"
+      content="одяг, жіночий одяг, чоловічий одяг, магазин одягу, інтернет-магазин одягу, модний одяг, купити одяг онлайн, ВИГІДНІ ПОКУПКИ ДРОГОБИЧ, стиль, Україна"
+    />
+    <meta name="author" content="ВИГІДНІ ПОКУПКИ ДРОГОБИЧ" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="ВИГІДНІ ПОКУПКИ ДРОГОБИЧ — це про стильний одяг "
+    />
+    <meta
+      property="og:description"
+      content="Модний одяг та натхнення кожного дня. Замовляйте онлайн з доставкою по Україні!"
+    />
+    <meta property="og:url" content="https://www.kramnytsiashchastia.com" />
+    <meta
+      property="og:image"
+      content="https://www.kramnytsiashchastia.com/public/logo.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="./public/logo.jpg" type="image/x-icon" />
+    <title>ВИГІДНІ ПОКУПКИ ДРОГОБИЧ</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ВИГІДНІ ПОКУПКИ ДРОГОБИЧ</h1>
+    </header>
+
+    <main>
+      <section class="card">
+        <article class="info">
+          <div>
+            <h3>Контактний номер:</h3>
+            <p>+380986705569</p>
+          </div>
+          <div>
+            <h3>Головні посилання</h3>
+            <p>Facebook: Панчак Марія</p>
+          </div>
+        </article>
+        <hr />
+        <h4>Соц. мережі:</h4>
+        <div class="buttons">
+          <button>
+            <a
+              href="https://www.instagram.com/mariiapanchak2020"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+          </button>
+
+          <!-- <button>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-tiktok"></i> TikTok
+            </a>
+          </button> -->
+
+          <button>
+            <a
+              href="https://invite.viber.com/?g2=AQAi4FpCWsEXuE1UJO%2FP9upbaAB3nIWguXvW%2BsPtUhZivWg5fADijueevTwoQvbN"
+              target="_blank"
+            >
+              <i class="fa-brands fa-viber"></i> Viber
+            </a>
+          </button>
+
+          <button>
+            <a
+              href="https://www.facebook.com/maria.pancak.434264"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+          </button>
+
+          <!-- <button>
+            <a href="https://t.me/" target="_blank">
+              <i class="fa-brands fa-telegram"></i> Telegram
+            </a>
+          </button> -->
+        </div>
+        <hr />
+        <h4>Для замовлень:</h4>
+        <div class="buttons">
+          <!-- <button style="background-color: cornflowerblue">
+            <a href="https://t.me/kramnytsiashchastia" target="_blank">
+              <i class="fa-brands fa-telegram"></i> Telegram
+            </a>
+          </button> -->
+          <button style="background-color: #7360f2">
+            <a href="viber://chat?number=+380986705569" target="_blank">
+              <i class="fa-brands fa-viber"></i> Viber
+            </a>
+          </button>
+        </div>
+        <hr />
+        <h4>🚚 Доставка</h4>
+        <p>
+          Нова Пошта / УкрПошта <br />
+          Щоденна відправка
+        </p>
+
+        <h4>🔄 Обмін</h4>
+        <p>Обмін/Повернення 14 днів</p>
+
+        <h4>💳 Оплата</h4>
+        <p>На карту або післяплата</p>
+        <h2>ФОП Панчак Марія</h2>
+        <p>IBAN (БАНК):</p>
+        <p id="textBlock">
+          UA323220010000026009360028290
+          <!-- <button id="copyBtn">Скопіювати</button> -->
+        </p>
+
+        <p>ЄДРПОУ: 11111</p>
+        <p>Призначення платежу: Оплата за товар</p>
+        <hr />
+
+        <article>
+          <h2 id="reviews-title">Відгуки покупців</h2>
+
+          <div id="reviews-container">
+            <img src="public/img_1" alt="Відгук 1" class="img" />
+            <img src="public/img_2" alt="Відгук 2" class="img" />
+            <img src="public/img_3" alt="Відгук 3" class="img" />
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <button id="fixed_button">
+      <a href="viber://chat?number=+380986705569" target="_blank">
+        <i class="fa-brands fa-viber"></i> Viber
+      </a>
+    </button>
+
+    <footer>© 2025 ВИГІДНІ ПОКУПКИ ДРОГОБИЧ</footer>
+    <script>
+      const btn = document.getElementById("textBlock");
+
+      btn.addEventListener("click", async () => {
+        const originalText = "UA323220010000026009360028290";
+        navigator.clipboard.writeText(originalText);
+        btn.classList.add("fade"); // добавляем анимацию
+        btn.textContent = "✅ Скопійовано";
+
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.classList.remove("fade"); // убираем анимацию
+        }, 3000);
+      });
+
+      const images = document.querySelectorAll(".img");
+      images.forEach((img) => {
+        img.addEventListener("click", () => {
+          img.classList.toggle("big_photo");
+        });
+      });
+    </script>
+  </body>
+</html>
